@@ -13,6 +13,7 @@
 		5A6AD3101D8FF9F2004F0F8E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A6AD30E1D8FF9F2004F0F8E /* Main.storyboard */; };
 		5A6AD3121D8FF9F2004F0F8E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A6AD3111D8FF9F2004F0F8E /* Assets.xcassets */; };
 		5A6AD3151D8FF9F2004F0F8E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A6AD3131D8FF9F2004F0F8E /* LaunchScreen.storyboard */; };
+		5A6AD31E1D8FFA1A004F0F8E /* MKAlertManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A6AD31D1D8FFA1A004F0F8E /* MKAlertManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		5A6AD3111D8FF9F2004F0F8E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5A6AD3141D8FF9F2004F0F8E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5A6AD3161D8FF9F2004F0F8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A6AD31C1D8FFA1A004F0F8E /* MKAlertManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKAlertManager.h; sourceTree = "<group>"; };
+		5A6AD31D1D8FFA1A004F0F8E /* MKAlertManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKAlertManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +63,8 @@
 			children = (
 				5A6AD3081D8FF9F2004F0F8E /* AppDelegate.h */,
 				5A6AD3091D8FF9F2004F0F8E /* AppDelegate.m */,
+				5A6AD31C1D8FFA1A004F0F8E /* MKAlertManager.h */,
+				5A6AD31D1D8FFA1A004F0F8E /* MKAlertManager.m */,
 				5A6AD30B1D8FF9F2004F0F8E /* ViewController.h */,
 				5A6AD30C1D8FF9F2004F0F8E /* ViewController.m */,
 				5A6AD30E1D8FF9F2004F0F8E /* Main.storyboard */,
@@ -110,6 +115,7 @@
 				TargetAttributes = {
 					5A6AD3011D8FF9F2004F0F8E = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = UE8J4YV967;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -152,6 +158,7 @@
 			files = (
 				5A6AD30D1D8FF9F2004F0F8E /* ViewController.m in Sources */,
 				5A6AD30A1D8FF9F2004F0F8E /* AppDelegate.m in Sources */,
+				5A6AD31E1D8FFA1A004F0F8E /* MKAlertManager.m in Sources */,
 				5A6AD3071D8FF9F2004F0F8E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,6 +279,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = UE8J4YV967;
 				INFOPLIST_FILE = MKAlertManagerExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = pl.mnnajt.MKAlertManagerExample;
@@ -283,6 +291,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = UE8J4YV967;
 				INFOPLIST_FILE = MKAlertManagerExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = pl.mnnajt.MKAlertManagerExample;
